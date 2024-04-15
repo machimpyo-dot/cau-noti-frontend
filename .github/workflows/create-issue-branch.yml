@@ -25,7 +25,7 @@ jobs:
           branch=$BRANCH_NAME
           if [[ $branch =~ ^fix/ ]]; then \
             template="버그-이슈-템플릿.md"; \
-          elif [[ $branch =~ ^feat/ ]]; then \
+          elif [[ $branch =~ ^feature/ ]]; then \
             template="기능-추가-이슈-템플릿.md"; \
           elif [[ $branch =~ ^refactor/ ]]; then \
             template="리팩토링-템플릿.md"; \
